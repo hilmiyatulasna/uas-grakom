@@ -7,15 +7,12 @@ Fitur Utama:
 1. Kontrol Sederhana
    - Gunakan touchpad untuk membuat ikan melompat.
    - Hindari terumbu karang dengan mengatur ketinggian lompatan ikan.
-
 2. Skor dan Tingkat Kesulitan
    - Setiap terumbu karang yang berhasil dilewati akan meningkatkan skor.
    - Tingkat kesulitan akan meningkat seiring dengan peningkatan skor, memberikan pengalaman bermain yang menantang.
-
 3. Desain Grafis Menarik
    - Suasana bawah laut yang indah dengan animasi ikan yang lucu.
    - Terumbu karang dan latar belakang yang detail untuk menciptakan pengalaman bermain yang imersif.
-
 4. Penyimpanan Skor Tertinggi
    - Tantang dirimu sendiri dan teman-teman untuk mencetak skor tertinggi!
    - Skor tertinggi akan disimpan dan dapat dilihat di leaderboard.
