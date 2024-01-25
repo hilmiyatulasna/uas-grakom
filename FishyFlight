@@ -75,3 +75,33 @@ void moveWalls() {
     wallx2 -= 6 * gameSpeed;
   }
 }
+
+void checkCollisions() {
+  if (y > height || y < 0 || (abs(width / 2 - wallx1) < 25 && abs(y - wally1) > 100) ||
+      (abs(width / 2 - wallx2) < 25 && abs(y - wally2) > 100)) game = 1;
+}
+
+void displayScore() {
+  text("Score: " + score, 10, 20);
+}
+
+void displayWelcomeScreen() {
+  imageMode(CENTER);
+  image(welcomescreen, width / 2, height / 2);
+  text("High Score: " + highscore, 50, 130);
+}
+
+void mousePressed() {
+  vertical = -14;
+  if (game == 1) {
+    resetGame();
+  }
+}
+
+void resetGame() {
+  wallx1 = 600;
+  wally1 = y = height / 2;
+  wallx2 = 900;
+  wally2 = (int) random(200, height - 200);
+  x = game = score = 0;
+}
