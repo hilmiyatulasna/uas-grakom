@@ -1,0 +1,77 @@
+PImage backpic, fishpic, wallpic, welcomescreen;
+int game, score, highscore, x, y, vertical, wallx1, wally1, wallx2, wally2;
+float gameSpeed = 0.5;
+
+void setup() {
+  backpic = loadImage("img/back.png");
+  fishpic = loadImage("img/fish.png");
+  wallpic = loadImage("img/wall.png");
+  welcomescreen = loadImage("img/start.png");
+
+  game = 1;
+  score = 0;
+  highscore = 0;
+  x = -200;
+  y = height / 2;
+  vertical = 0;
+  wallx1 = width;
+  wallx2 = width + 300;
+  wally1 = (int) random(200, height - 200);
+  wally2 = (int) random(200, height - 200);
+
+  size(600, 800);
+  fill(0, 0, 0);
+  textSize(20);
+  frameRate(60);
+}
+
+void draw() {
+  if (game == 0) {
+    moveBackground();
+    movefish();
+    moveWalls();
+    checkCollisions();
+    displayScore();
+  } else {
+    displayWelcomeScreen();
+  }
+}
+
+void moveBackground() {
+  imageMode(CORNER);
+  image(backpic, x, 0);
+  image(backpic, x + backpic.width, 0);
+  x -= 5 * gameSpeed;
+  if (x == -1800) x = 0;
+}
+
+void movefish() {
+  imageMode(CENTER);
+  image(fishpic, width / 2, y);
+  vertical += 1;
+  y += vertical;
+}
+
+void moveWalls() {
+  for (int i = 0; i < 2; i++) {
+    imageMode(CENTER);
+    image(wallpic, wallx1, wally1 - (wallpic.height / 2 + 100));
+    image(wallpic, wallx1, wally1 + (wallpic.height / 2 + 100));
+    image(wallpic, wallx2, wally2 - (wallpic.height / 2 + 100));
+    image(wallpic, wallx2, wally2 + (wallpic.height / 2 + 100));
+
+    if (wallx1 < 0) {
+      wally1 = (int) random(200, height - 200);
+      wallx1 = width;
+    }
+    if (wallx2 < 0) {
+      wally2 = (int) random(200, height - 200);
+      wallx2 = width;
+    }
+
+    if (wallx1 == width / 2 || wallx2 == width / 2) highscore = max(++score, highscore);
+
+    wallx1 -= 6 * gameSpeed;
+    wallx2 -= 6 * gameSpeed;
+  }
+}
