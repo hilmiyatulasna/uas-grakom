@@ -1,6 +1,7 @@
 PImage backpic, fishpic, wallpic, welcomescreen;
 int game, score, highscore, x, y, vertical, wallx1, wally1, wallx2, wally2;
 float gameSpeed = 0.5;
+int verticalGap = 150; 
 
 void setup() {
   backpic = loadImage("img/back.png");
@@ -28,7 +29,7 @@ void setup() {
 void draw() {
   if (game == 0) {
     moveBackground();
-    movefish();
+    moveFish();
     moveWalls();
     checkCollisions();
     displayScore();
@@ -45,7 +46,7 @@ void moveBackground() {
   if (x == -1800) x = 0;
 }
 
-void movefish() {
+void moveFish() {
   imageMode(CENTER);
   image(fishpic, width / 2, y);
   vertical += 1;
@@ -55,10 +56,10 @@ void movefish() {
 void moveWalls() {
   for (int i = 0; i < 2; i++) {
     imageMode(CENTER);
-    image(wallpic, wallx1, wally1 - (wallpic.height / 2 + 100));
-    image(wallpic, wallx1, wally1 + (wallpic.height / 2 + 100));
-    image(wallpic, wallx2, wally2 - (wallpic.height / 2 + 100));
-    image(wallpic, wallx2, wally2 + (wallpic.height / 2 + 100));
+    image(wallpic, wallx1, wally1 - (wallpic.height / 2 + verticalGap));
+    image(wallpic, wallx1, wally1 + (wallpic.height / 2 + verticalGap));
+    image(wallpic, wallx2, wally2 - (wallpic.height / 2 + verticalGap));
+    image(wallpic, wallx2, wally2 + (wallpic.height / 2 + verticalGap));
 
     if (wallx1 < 0) {
       wally1 = (int) random(200, height - 200);
