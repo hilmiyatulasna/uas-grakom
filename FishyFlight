@@ -83,7 +83,7 @@ void checkCollisions() {
 }
 
 void displayScore() {
-  text("Score: " + score, 10, 20)
+  text("Score: " + score, 10, 20);
 }
 
 void displayWelcomeScreen() {
