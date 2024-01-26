@@ -104,5 +104,5 @@ void resetGame() {
   wally1 = y = height / 2;
   wallx2 = 900;
   wally2 = (int) random(200, height - 200);
-  x = game = score = 0;
+  x = game = score = 0;
 }
