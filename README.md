@@ -41,11 +41,6 @@ Gambar :
    
    ![alt text](https://github.com/hilmiyatulasna/uas-grakom/blob/main/img/tampilan-dalam-game.png?usp=sharing?raw=true)
 
-Kontribusi:
-Jika Anda tertarik untuk berkontribusi pada pengembangan game ini, silakan lakukan langkah-langkah berikut:
-1. Fork repositori ini.
-2. Lakukan perubahan sesuai kebutuhan.
-3. Kirim pull request untuk ditinjau.
 
 Dibuat oleh Kelompok 4 - TI 3A :
 1. Hilmiyatul Asna [2207411001] (Akun GitHub : hilmiyatulasna)
