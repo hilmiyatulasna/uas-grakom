@@ -35,11 +35,11 @@ Gambar :
 
 1. Tampilan Awal Game
    
-![alt text](https://github.com/hilmiyatulasna/uas-grakom/blob/main/img/tampilan-awal-game.png?raw=true)
+   ![alt text](https://github.com/hilmiyatulasna/uas-grakom/blob/main/img/tampilan-awal-game.png?raw=true)
 
 2. Tampilan Dalam Game
    
-![alt text](https://github.com/hilmiyatulasna/uas-grakom/blob/main/img/tampilan-dalam-game.png?usp=sharing?raw=true)
+   ![alt text](https://github.com/hilmiyatulasna/uas-grakom/blob/main/img/tampilan-dalam-game.png?usp=sharing?raw=true)
 
 Kontribusi:
 Jika Anda tertarik untuk berkontribusi pada pengembangan game ini, silakan lakukan langkah-langkah berikut:
