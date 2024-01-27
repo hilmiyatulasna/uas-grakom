@@ -1,4 +1,11 @@
-Selamat datang di FishyFlight Game!
+Dibuat oleh Kelompok 4 - TI 3A :
+1. Hilmiyatul Asna [2207411001] (Akun GitHub : hilmiyatulasna)
+2. Deviyanti Kusumawati [2207411003] (Akun Github : deviynti123)
+3. Visca Chaerunnisa Bachri [2207411007] (Akun GitHub : piskacu893)
+4. Made Dharmagiri [2207411009] (Akun GitHub : madegiri)
+5. Nyak Isa [2023000046] (Akun GitHub : nyakisa123)
+
+**Selamat datang di FishyFlight Game!**
 
 Deskripsi Game:
 FishyFlight adalah game sederhana yang menggabungkan elemen-elemen seru dari Flappy Bird dengan suasana bawah laut yang penuh petualangan. Dalam game ini, pemain akan mengendalikan seekor ikan yang harus melewati terumbu karang tanpa menyentuhnya. Tantangan utama adalah menjaga ikan tetap berenang dan menghindari rintangan agar dapat mencapai skor tertinggi!
@@ -41,12 +48,5 @@ Gambar :
    
    ![alt text](https://github.com/hilmiyatulasna/uas-grakom/blob/main/img/tampilan-dalam-game.png?usp=sharing?raw=true)
 
-
-Dibuat oleh Kelompok 4 - TI 3A :
-1. Hilmiyatul Asna [2207411001] (Akun GitHub : hilmiyatulasna)
-2. Deviyanti Kusumawati [2207411003] (Akun Github : deviynti123)
-3. Visca Chaerunnisa Bachri [2207411007] (Akun GitHub : piskacu893)
-4. Made Dharmagiri [2207411009] (Akun GitHub : madegiri)
-5. Nyak Isa [2023000046]
 
 Selamat bermain dan semoga Anda menikmati FishyFlight Game!
