@@ -31,7 +31,7 @@ Cara Bermain:
    - Tantang dirimu sendiri dan lihat apakah kamu bisa mencetak skor tertinggi!
    - Skor tertinggi akan ditampilkan di akhir permainan.
   
-Gambar :
+Gambar : <br>
 ![alt text](https://github.com/hilmiyatulasna/uas-grakom/blob/main/img/tampilan-awal-game.png?raw=true)
 
 ![alt text](https://github.com/hilmiyatulasna/uas-grakom/blob/main/img/tampilan-dalam-game.png?usp=sharing?raw=true)
