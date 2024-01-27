@@ -1,3 +1,10 @@
+Dibuat oleh Kelompok 4 - TI 3A :
+1. Hilmiyatul Asna [2207411001] (Akun GitHub : hilmiyatulasna)
+2. Deviyanti Kusumawati [2207411003] (Akun Github : deviynti123)
+3. Visca Chaerunnisa Bachri [2207411007] (Akun GitHub : piskacu893)
+4. Made Dharmagiri [2207411009] (Akun GitHub : madegiri)
+5. Nyak Isa [2023000046](akun Github :@nyakisa123)
+
 Selamat datang di FishyFlight Game!
 
 Deskripsi Game:
@@ -37,11 +44,6 @@ Jika Anda tertarik untuk berkontribusi pada pengembangan game ini, silakan lakuk
 2. Lakukan perubahan sesuai kebutuhan.
 3. Kirim pull request untuk ditinjau.
 
-Dibuat oleh Kelompok 4 - TI 3A :
-1. Hilmiyatul Asna [2207411001] (Akun GitHub : hilmiyatulasna)
-2. Deviyanti Kusumawati [2207411003] (Akun Github : deviynti123)
-3. Visca Chaerunnisa Bachri [2207411007] (Akun GitHub : piskacu893)
-4. Made Dharmagiri [2207411009] (Akun GitHub : madegiri)
-5. Nyak Isa [2023000046]
+
 
 Selamat bermain dan semoga Anda menikmati FishyFlight Game!
